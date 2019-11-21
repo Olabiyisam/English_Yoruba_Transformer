@@ -6,7 +6,7 @@ The matrix `query`, `key` and `value` are all the same for self-attention and on
 
 ## The Process
 
-I make use of the havard nlp [post](http://nlp.seas.harvard.edu/2018/04/03/attention.html). which make use of english to french, they use spacy tokenization to tokenize both language. Since the tokenization for yoruba is not available, i was able to tokenize the English and Yoruba language using a custom function thanks to this pytorch [tutorial](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html) for the heads up, most of their utility function was used.
+I make use of the havard NLP [post](http://nlp.seas.harvard.edu/2018/04/03/attention.html). which make use of english to french, they use spacy tokenization to tokenize both language. Since the tokenization for yoruba is not available, i was able to tokenize the English and Yoruba language using a custom function thanks to this pytorch [tutorial](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html) for the heads up, most of their utility function was used.
 
 In the tutorial pytext batching was used in relation to spacy, and since am not using spacy a custom batchong is needed, i used` TensorDataset` and `DataLoader`.
 
