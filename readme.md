@@ -1,4 +1,4 @@
-## ENGLISH TO YORUBA USING TRANSFORMER
+## NLP ENGLISH TO YORUBA USING TRANSFORMER
 
 Transformer is totally based on attention using normal Linear layers, thereby eradicating the use of rnn in during sequence to sequence. One amazing stuff about RNN and LSTM is that sequence are represented as `time-steps` , hence their is sequence order. Instead transformer used `Postitional Encoding` to create orderliness in sequence. The positonal encoder involve encoding the odd postional with `sine function` and the even position of the sequence is represented with `cosine function` am thinking this is done because of the trigonometry property of sine being an `odd function` and cosine being an `even function`. This postional encoder is added with the embedded matrixsince they are of the same dimension.
 
