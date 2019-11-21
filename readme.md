@@ -12,7 +12,7 @@ In the tutorial pytext batching was used in relation to spacy, and since am not 
 
 ### Data generation
 
-The data was generated from jehova withness (english and yoruba) bible epub version. The generation was made easy by following through the same process used by [goodyduru](https://github.com/goodyduru/machine-translation) who created the IGBO version , translating English to Ibo. so the code in data-tool are the notebook version of his python code with few additions.
+The data was generated from jehova withness (english and yoruba) bible epub version. The data generation was made easy by following through the same process used by a cooleague Goodness Duru who assisted in generating the dataset for the IGBO Dataset.
 
 The Transformer architecture is amazing, i did not train it with single words but it was able to translate single words and it is very fast. 
 
